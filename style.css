@@ -1,0 +1,124 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('image.webp');
+    /* 更改为你的图片路径 */
+    background-size: cover;
+    /* 让背景图覆盖整个页面 */
+    background-position: center;
+    /* 背景图居中 */
+    color: #333;
+    line-height: 1.6;
+}
+
+#app {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#user {
+    display: flex;
+    align-items: center;
+}
+
+#myphoto img {
+    width: auto;
+    /* 使用原始宽度 */
+    height: auto;
+    /* 使用原始高度 */
+    max-width: 150px;
+    /* 设置最大宽度 */
+    max-height: 150px;
+    /* 设置最大高度 */
+    border-radius: 50%;
+    /* 圆形效果 */
+    margin-right: 20px;
+}
+
+#userInfo {
+    flex: 1;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#edu,
+#contact,
+#experience,
+#habit,
+#MBTI,
+#Family,
+#pet {
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+    /* 增加上边距确保与标题分开 */
+}
+
+li {
+    margin-bottom: 5px;
+    /* 保持列表项间距 */
+}
+
+#contactInfo div {
+    margin-bottom: 10px;
+}
+
+#submit {
+    margin-top: 20px;
+}
+
+#submit label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#submit input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.pet-images img {
+    margin: 5px;
+    border-radius: 5px;
+}
