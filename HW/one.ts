@@ -4,7 +4,6 @@
 
 const age: number = 25;
 console.log(`Age: ${age}`);
-// age 不可改，因為他使用 const 聲明 age 為 25，如果嘗試更改會報錯
 
 let Name: string = "Alice";
 
